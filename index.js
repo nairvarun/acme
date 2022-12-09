@@ -106,7 +106,7 @@ function plumb(command) {
 				primaryOutput.value = '';
 				break;
 			case 'email':
-				openUlr('open mail to email nairvarun@pm.me?', 'nairvarun@pm.me', true, true);
+				openUlr('open mail to email varun.nair2021@vitbhopal.ac.in?', 'varun.nair2021@vitbhopal.ac.in', true, true);
 				break;
 			// case. to avaid matching with regex
 			// case. 'gitlab':
@@ -132,7 +132,7 @@ function plumb(command) {
 				openUlr('open https://github.com/nairvarun/nairvarun.github.io?', 'https://github.com/nairvarun/nairvarun.github.io');
 				break;
 			case 'about':
-				primaryOutput.value = 'https://nairvarun.github.io\n';
+				primaryOutput.value = 'https://nairvarun.xyz/\n';
 				break;
 			default:
 				break;
